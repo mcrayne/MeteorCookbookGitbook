@@ -1,0 +1,742 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
+        <meta charset="UTF-8">
+        <title>WebStorm IDE | Meteorcookbookgitbook</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="mcrayne">
+        <meta name="description" content="Book generated using GitBook">
+        <meta name="keywords" content="gitbook,github" >
+        <meta name="generator" content="www.gitbook.io">
+
+        
+        <link rel="next" href="./Test Driven Development.html" />
+        
+        
+        <link rel="prev" href="./Development Tools.html" />
+        
+
+        <meta property="og:title" content="WebStorm IDE | Meteorcookbookgitbook">
+        <meta property="og:site_name" content="Meteorcookbookgitbook">
+        <meta property="og:type" content="book">
+        <meta property="og:locale" content="en_US">
+
+        <meta property="book:author" content="https://github.com/mcrayne">
+        <meta property="book:tag" content="GitBook">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+        
+        <link rel="stylesheet" href="gitbook/style.css">
+        
+        
+    </head>
+    <body>
+        
+<div class="book" data-github="mcrayne/MeteorCookbookGitbook" data-level="4.3" data-basepath="." data-revision="1398653190762">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="https://github.com/mcrayne/MeteorCookbookGitbook" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
+    <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
+
+    <!-- Actions Right -->
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://github.com/mcrayne/MeteorCookbookGitbook/stargazers" target="_blank" class="btn pull-right count-star"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/mcrayne/MeteorCookbookGitbook/watchers" target="_blank" class="btn pull-right count-watch"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+
+
+    <!-- Title -->
+    <h1><a href="./" >Meteorcookbookgitbook</a></h1>
+</div>
+
+    <div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        <li>
+            <a href="https://github.com/mcrayne" target="blank">About the author</a>
+        </li>
+        <li>
+            <a href="https://github.com/mcrayne/MeteorCookbookGitbook/issues" target="blank">Questions and Issues</a>
+        </li>
+        <li>
+            <a href="https://github.com/mcrayne/MeteorCookbookGitbook/edit/master/WebStorm IDE.md" target="blank">Edit and Contribute</a>
+        </li>
+        <li class="divider"></li>
+        <li data-level="0" data-path="index.html">
+            <a href="./"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+            <li  data-level="1" data-path="Cookbook Conventions.html">
+                
+                <a href="./Cookbook Conventions.html">
+                    <i class="fa fa-check"></i> <b>1)</b> Cookbook Conventions
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="2" data-path="General Advice.html">
+                
+                <a href="./General Advice.html">
+                    <i class="fa fa-check"></i> <b>2)</b> General Advice
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="3" data-path="Meteor Style Guide.html">
+                
+                <a href="./Meteor Style Guide.html">
+                    <i class="fa fa-check"></i> <b>3)</b> Meteor Style Guide
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="3.1" data-path="Terminology.html">
+                            
+                            <a href="./Terminology.html">
+                                <i class="fa fa-check"></i> <b>3.1)</b> Terminology
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="3.2" data-path="Syntax.html">
+                            
+                            <a href="./Syntax.html">
+                                <i class="fa fa-check"></i> <b>3.2)</b> Syntax
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="3.3" data-path="Punctuation.html">
+                            
+                            <a href="./Punctuation.html">
+                                <i class="fa fa-check"></i> <b>3.3)</b> Punctuation
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="3.4" data-path="Reserved Words.html">
+                            
+                            <a href="./Reserved Words.html">
+                                <i class="fa fa-check"></i> <b>3.4)</b> Reserved Words
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="4" data-path="Installation.html">
+                
+                <a href="./Installation.html">
+                    <i class="fa fa-check"></i> <b>4)</b> Installation
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="4.1" data-path="Quickstart.html">
+                            
+                            <a href="./Quickstart.html">
+                                <i class="fa fa-check"></i> <b>4.1)</b> Quickstart
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.2" data-path="Development Tools.html">
+                            
+                            <a href="./Development Tools.html">
+                                <i class="fa fa-check"></i> <b>4.2)</b> Development Tools
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.3" data-path="WebStorm IDE.html">
+                            
+                            <a href="./WebStorm IDE.html">
+                                <i class="fa fa-check"></i> <b>4.3)</b> WebStorm IDE
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="5" data-path="Test Driven Development.html">
+                
+                <a href="./Test Driven Development.html">
+                    <i class="fa fa-check"></i> <b>5)</b> Test Driven Development
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="5.1" data-path="The Refactoring Process.html">
+                            
+                            <a href="./The Refactoring Process.html">
+                                <i class="fa fa-check"></i> <b>5.1)</b> The Refactoring Process
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="5.2" data-path="Refactoring with Test Driven Development.html">
+                            
+                            <a href="./Refactoring with Test Driven Development.html">
+                                <i class="fa fa-check"></i> <b>5.2)</b> Refactoring with Test Driven Development
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="5.3" data-path="Writing Acceptance Tests.html">
+                            
+                            <a href="./Writing Acceptance Tests.html">
+                                <i class="fa fa-check"></i> <b>5.3)</b> Writing Acceptance Tests
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="6" data-path="Site Mechanics.html">
+                
+                <a href="./Site Mechanics.html">
+                    <i class="fa fa-check"></i> <b>6)</b> Site Mechanics
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="6.1" data-path="File Structure.html">
+                            
+                            <a href="./File Structure.html">
+                                <i class="fa fa-check"></i> <b>6.1)</b> File Structure
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.2" data-path="Dependencies.html">
+                            
+                            <a href="./Dependencies.html">
+                                <i class="fa fa-check"></i> <b>6.2)</b> Dependencies
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.3" data-path="App Structure.html">
+                            
+                            <a href="./App Structure.html">
+                                <i class="fa fa-check"></i> <b>6.3)</b> App Structure
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.4" data-path="Event Cycle.html">
+                            
+                            <a href="./Event Cycle.html">
+                                <i class="fa fa-check"></i> <b>6.4)</b> Event Cycle
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.5" data-path="Namespacing.html">
+                            
+                            <a href="./Namespacing.html">
+                                <i class="fa fa-check"></i> <b>6.5)</b> Namespacing
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.6" data-path="Packages.html">
+                            
+                            <a href="./Packages.html">
+                                <i class="fa fa-check"></i> <b>6.6)</b> Packages
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.7" data-path="Site Configuration.html">
+                            
+                            <a href="./Site Configuration.html">
+                                <i class="fa fa-check"></i> <b>6.7)</b> Site Configuration
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="7" data-path="OSI Model Physical Layer.html">
+                
+                <a href="./OSI Model Physical Layer.html">
+                    <i class="fa fa-check"></i> <b>7)</b> OSI Model Physical Layer
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="8" data-path="OSI Model Data-Link Layer.html">
+                
+                <a href="./OSI Model Data-Link Layer.html">
+                    <i class="fa fa-check"></i> <b>8)</b> OSI Model Data-Link Layer
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="8.1" data-path="Console Logging.html">
+                            
+                            <a href="./Console Logging.html">
+                                <i class="fa fa-check"></i> <b>8.1)</b> Console Logging
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="8.2" data-path="WebKit Browsers.html">
+                            
+                            <a href="./WebKit Browsers.html">
+                                <i class="fa fa-check"></i> <b>8.2)</b> WebKit Browsers
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="8.3" data-path="File IO.html">
+                            
+                            <a href="./File IO.html">
+                                <i class="fa fa-check"></i> <b>8.3)</b> File IO
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="8.4" data-path="Video IO.html">
+                            
+                            <a href="./Video IO.html">
+                                <i class="fa fa-check"></i> <b>8.4)</b> Video IO
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="9" data-path="OSI Model Network Layer.html">
+                
+                <a href="./OSI Model Network Layer.html">
+                    <i class="fa fa-check"></i> <b>9)</b> OSI Model Network Layer
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="10" data-path="OSI Model Transport Layer.html">
+                
+                <a href="./OSI Model Transport Layer.html">
+                    <i class="fa fa-check"></i> <b>10)</b> OSI Model Transport Layer
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="11" data-path="OSI Model Data Layer.html">
+                
+                <a href="./OSI Model Data Layer.html">
+                    <i class="fa fa-check"></i> <b>11)</b> OSI Model Data Layer
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="12" data-path="OSI Model Presentation Layer.html">
+                
+                <a href="./OSI Model Presentation Layer.html">
+                    <i class="fa fa-check"></i> <b>12)</b> OSI Model Presentation Layer
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="13" data-path="OSI Model Application Layer.html">
+                
+                <a href="./OSI Model Application Layer.html">
+                    <i class="fa fa-check"></i> <b>13)</b> OSI Model Application Layer
+                </a>
+                
+                
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body" tabindex="-1">
+        <div class="page-wrapper">
+            <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 44.11764705882353%;min-width: 41.1764705882353%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="./README.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="./Cookbook Conventions.html" title="Cookbook Conventions" class="chapter done new-chapter" data-progress="1" style="left: 2.9411764705882355%;"></a>
+    
+        <a href="./OSI Model Transport Layer.html" title="OSI Model Transport Layer" class="chapter done " data-progress="10" style="left: 5.882352941176471%;"></a>
+    
+        <a href="./OSI Model Data Layer.html" title="OSI Model Data Layer" class="chapter done " data-progress="11" style="left: 8.823529411764707%;"></a>
+    
+        <a href="./OSI Model Presentation Layer.html" title="OSI Model Presentation Layer" class="chapter done " data-progress="12" style="left: 11.764705882352942%;"></a>
+    
+        <a href="./OSI Model Application Layer.html" title="OSI Model Application Layer" class="chapter done " data-progress="13" style="left: 14.705882352941176%;"></a>
+    
+        <a href="./General Advice.html" title="General Advice" class="chapter done new-chapter" data-progress="2" style="left: 17.647058823529413%;"></a>
+    
+        <a href="./Meteor Style Guide.html" title="Meteor Style Guide" class="chapter done new-chapter" data-progress="3" style="left: 20.58823529411765%;"></a>
+    
+        <a href="./Terminology.html" title="Terminology" class="chapter done " data-progress="3.1" style="left: 23.529411764705884%;"></a>
+    
+        <a href="./Syntax.html" title="Syntax" class="chapter done " data-progress="3.2" style="left: 26.470588235294116%;"></a>
+    
+        <a href="./Punctuation.html" title="Punctuation" class="chapter done " data-progress="3.3" style="left: 29.41176470588235%;"></a>
+    
+        <a href="./Reserved Words.html" title="Reserved Words" class="chapter done " data-progress="3.4" style="left: 32.35294117647059%;"></a>
+    
+        <a href="./Installation.html" title="Installation" class="chapter done new-chapter" data-progress="4" style="left: 35.294117647058826%;"></a>
+    
+        <a href="./Quickstart.html" title="Quickstart" class="chapter done " data-progress="4.1" style="left: 38.23529411764706%;"></a>
+    
+        <a href="./Development Tools.html" title="Development Tools" class="chapter done " data-progress="4.2" style="left: 41.1764705882353%;"></a>
+    
+        <a href="./WebStorm IDE.html" title="WebStorm IDE" class="chapter done " data-progress="4.3" style="left: 44.11764705882353%;"></a>
+    
+        <a href="./Test Driven Development.html" title="Test Driven Development" class="chapter  new-chapter" data-progress="5" style="left: 47.05882352941177%;"></a>
+    
+        <a href="./The Refactoring Process.html" title="The Refactoring Process" class="chapter  " data-progress="5.1" style="left: 50%;"></a>
+    
+        <a href="./Refactoring with Test Driven Development.html" title="Refactoring with Test Driven Development" class="chapter  " data-progress="5.2" style="left: 52.94117647058823%;"></a>
+    
+        <a href="./Writing Acceptance Tests.html" title="Writing Acceptance Tests" class="chapter  " data-progress="5.3" style="left: 55.88235294117647%;"></a>
+    
+        <a href="./Site Mechanics.html" title="Site Mechanics" class="chapter  new-chapter" data-progress="6" style="left: 58.8235294117647%;"></a>
+    
+        <a href="./File Structure.html" title="File Structure" class="chapter  " data-progress="6.1" style="left: 61.76470588235294%;"></a>
+    
+        <a href="./Dependencies.html" title="Dependencies" class="chapter  " data-progress="6.2" style="left: 64.70588235294117%;"></a>
+    
+        <a href="./App Structure.html" title="App Structure" class="chapter  " data-progress="6.3" style="left: 67.6470588235294%;"></a>
+    
+        <a href="./Event Cycle.html" title="Event Cycle" class="chapter  " data-progress="6.4" style="left: 70.58823529411765%;"></a>
+    
+        <a href="./Namespacing.html" title="Namespacing" class="chapter  " data-progress="6.5" style="left: 73.52941176470588%;"></a>
+    
+        <a href="./Packages.html" title="Packages" class="chapter  " data-progress="6.6" style="left: 76.47058823529412%;"></a>
+    
+        <a href="./Site Configuration.html" title="Site Configuration" class="chapter  " data-progress="6.7" style="left: 79.41176470588235%;"></a>
+    
+        <a href="./OSI Model Physical Layer.html" title="OSI Model Physical Layer" class="chapter  new-chapter" data-progress="7" style="left: 82.3529411764706%;"></a>
+    
+        <a href="./OSI Model Data-Link Layer.html" title="OSI Model Data-Link Layer" class="chapter  new-chapter" data-progress="8" style="left: 85.29411764705883%;"></a>
+    
+        <a href="./Console Logging.html" title="Console Logging" class="chapter  " data-progress="8.1" style="left: 88.23529411764706%;"></a>
+    
+        <a href="./WebKit Browsers.html" title="WebKit Browsers" class="chapter  " data-progress="8.2" style="left: 91.17647058823529%;"></a>
+    
+        <a href="./File IO.html" title="File IO" class="chapter  " data-progress="8.3" style="left: 94.11764705882354%;"></a>
+    
+        <a href="./Video IO.html" title="Video IO" class="chapter  " data-progress="8.4" style="left: 97.05882352941177%;"></a>
+    
+        <a href="./OSI Model Network Layer.html" title="OSI Model Network Layer" class="chapter  new-chapter" data-progress="9" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+            <div class="page-inner">
+            
+                <section class="normal" id="section-gitbook_37">
+                
+                    <h2 id="webstorm-ide">WebStorm IDE</h2>
+<h3 id="links-installation">Links, Installation</h3>
+<p>Recommend version of WebStorm is currently 7.0.
+<a href="http://www.jetbrains.com/webstorm/" target="_blank">http://www.jetbrains.com/webstorm/</a>
+<a href="http://www.jetbrains.com/webstorm/download/download_thanks.jsp" target="_blank">http://www.jetbrains.com/webstorm/download/download_thanks.jsp</a></p>
+<h3 id="download-the-settings-jar-file">Download the Settings.jar File</h3>
+<p>There&#39;s now a pre-compiled settings file which you can download and import directly into WebStorm, rather than following all the instructions in this document. It may be slightly out of date vs. this document, though.
+<a href="https://github.com/awatson1978/webstorm-settings" target="_blank">https://github.com/awatson1978/webstorm-settings</a></p>
+<h3 id="implementing-meteor-styleguide">Implementing Meteor Styleguide</h3>
+<p><a href="https://github.com/meteor/meteor/dwiki/Meteor-Style-Guide" target="_blank">https://github.com/meteor/meteor/dwiki/Meteor-Style-Guide</a></p>
+<h3 id="mvc-color-coding">MVC Color Coding</h3>
+<p>Run <code>meteor add less</code> at the command line to include the LESS precompiler.  Then use <code>.less</code> files instead of <code>.css</code> files.  Presto.  Your application should color code Model (Green), View (Blue), and Controller (Red) files.</p>
+<h3 id="settings-code-style-javascript">Settings &gt; Code Style &gt; Javascript</h3>
+<p>As per the Meteor style guide.
+<a href="https://github.com/meteor/meteor/wiki/Meteor-Style-Guide" target="_blank">https://github.com/meteor/meteor/wiki/Meteor-Style-Guide</a></p>
+<pre><code>// Tabs and Indents
+<span class="hljs-keyword">Tab</span> Size: <span class="hljs-number">2</span>
+<span class="hljs-keyword">Indent</span>: <span class="hljs-number">2</span>
+<span class="hljs-keyword">Continuation</span> indent: <span class="hljs-number">2</span>
+
+// Spaces  (select all options **except** the following)
+Unary operators
+<span class="hljs-keyword">Function</span> call parentheses
+<span class="hljs-keyword">Function</span> declaration parentheses
+<span class="hljs-string">'if'</span> parentheses
+<span class="hljs-string">'for'</span> parentheses
+<span class="hljs-string">'while'</span> parantheses
+<span class="hljs-string">'switch'</span> parantheses
+<span class="hljs-string">'catch'</span> parantheses
+</code></pre><h3 id="settings-directories-excluded">Settings &gt; Directories &gt; Excluded</h3>
+<p>You want to exclude the <code>.meteor</code> file so that the Meteor build process doesn&#39;t crash your IDE.  This applies to most any IDE you use, and isn&#39;t specific to WebStorm.</p>
+<pre><code><span class="hljs-preprocessor">.idea</span>
+<span class="hljs-preprocessor">.meteor</span>
+</code></pre><h3 id="settings-file-and-code-templates">Settings &gt; File and Code Templates</h3>
+<p>I find it very convenient to create a Less file template, using some default media styles to help with responsive mobile application design.</p>
+<p><strong>Meteor - Mobile View</strong></p>
+<pre><code class="lang-css">#guestPage{
+  .foo{
+    background-color: red;
+  }
+  .foo:hover{
+    text-decoration: underlined;
+  }
+
+}
+
+// landscape orientation
+@media only screen and (min-width: 768px) {
+  #guestPage{
+    .foo{
+      background-color: blue;
+    }
+  }
+}
+
+// portrait orientation
+@media only screen and (max-width: 768px) {
+  #guestPage{
+    .foo{
+      background-color: blue;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  #guestPage{
+    .foo{
+      background-color: blue;
+    }
+  }
+}
+</code></pre>
+<p><strong>Meteor - Basic Page Model</strong></p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"fooPage"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"fooPage"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"page"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"container"</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+</code></pre>
+<p><strong>Meteor - List Page Controller</strong></p>
+<pre><code class="lang-js">Template.fooPage.events({
+  &#39;click .btn&#39;:function(){
+    console.count(&#39;click .btn);
+    alert(&#39;click .btn!);
+  }
+})
+Template.fooList.fooList = function(){
+  return Foo.find();
+}
+</code></pre>
+<p><strong>Meteor - List Page Model</strong></p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"fooPage"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"fooPage"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"page"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"container"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span>
+      {{each fooList}}
+        {{&gt; fooListItem }}
+      {{/each}}
+      <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+
+
+<span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"fooListItem"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>
+    {{_id}}
+  <span class="hljs-tag">&lt;/<span class="hljs-title">ulil</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+</code></pre>
+<h3 id="settings-general">Settings &gt; General</h3>
+<p>&quot;Save files on frame deactivation&quot; and &quot;Save files automatically&quot; - you want this turned <strong>off</strong>.  It conflicts with Meteor&#39;s build process, and basically duplicates functionality found in Meteor.  Bundling and live editing will basically conflict with each other.</p>
+<p>In older versions, thse could be found under Preferences &gt; Live Edit.</p>
+<h3 id="settings-editor-editor-tabs">Settings &gt; Editor &gt; Editor Tabs</h3>
+<p>Enable &quot;Mark modified tabs with asterisk&quot;</p>
+<h3 id="settings-javascript-code-quality-tools-jslint">Settings &gt; Javascript &gt; Code Quality Tools &gt; JSLint</h3>
+<pre><code><span class="hljs-addition">+ Enable</span>
+<span class="hljs-addition">+ Tolerate TODO comments</span>
+Indentation 2
+</code></pre><p>If <a href="http://stackoverflow.com/questions/6803305/should-i-use-jslint-or-jshint-javascript-validation" target="_blank">JSLint is too annoyingly strict</a>, enable JSHint instead.</p>
+<h3 id="settings-javascript-node-js">Settings &gt; Javascript &gt; Node.js</h3>
+<pre><code>chai
+demeteorizer
+fs<span class="hljs-attribute">-tools</span>
+istanbul
+laika
+meteorite
+mocha
+phantomjs
+selenium<span class="hljs-attribute">-webdriver</span>
+</code></pre><h3 id="settings-version-control-github">Settings &gt; Version Control &gt; Github</h3>
+<pre><code><span class="hljs-attribute">Host</span>: <span class="hljs-string">github.com</span>
+<span class="hljs-attribute">Login</span>: <span class="hljs-string">yourusername</span>
+<span class="hljs-attribute">Password</span>: <span class="hljs-string">yourpassword</span>
+</code></pre><h3 id="settings-editor">Settings &gt; Editor</h3>
+<p>Editor preferences are going to vary wildly, particularly if you&#39;re accustomed to old school editors like Vim or Emacs.  However, if you&#39;d like WebStorm to behave like a typical text editor, I&#39;d recommend setting the following items.  In particular, allow placement of the caret after the end of line can be particularly confusing and frustrating.</p>
+<pre><code>- Honor <span class="hljs-attribute">'CamelHumps</span>'
++ Zoom <span class="hljs-keyword">with</span> Cmd + Mousewheel
++ <span class="hljs-keyword">Use</span> soft wraps <span class="hljs-keyword">in</span> editor
+- Allow placement <span class="hljs-keyword">of</span> caret <span class="hljs-keyword">after</span> <span class="hljs-keyword">end</span> <span class="hljs-keyword">of</span> line
++ Allowplacement <span class="hljs-keyword">of</span> caret inside <span class="hljs-keyword">of</span> tabs
+</code></pre><h3 id="preferences-editor-appearance">Preferences &gt; Editor &gt; Appearance</h3>
+<p>Showing line numbers is obviously a personal preference, but it helps immeasurably in debugging stack traces.  If you&#39;re not using line numbers, you&#39;re very likely either a n00b or a guru.  Ask yourself if you&#39;re a n00b, a guru, or an intermediate programmer, and set accordingly.</p>
+<pre><code><span class="hljs-addition">+ Show line numbers</span>
+</code></pre><h3 id="settings-editor-color-fonts-javascript">Settings &gt; Editor &gt; Color &amp; Fonts &gt; Javascript</h3>
+<p>Another personal preference, but if you&#39;re into reducing eye strain, coding in low-light levels, anord saving energy, try changing to <code>Darcula</code>.</p>
+<h3 id="settings-live-templates">Settings &gt; Live Templates</h3>
+<p>try/catch block</p>
+<pre><code class="lang-js"><span class="hljs-keyword">try</span>{
+  $SELECTION$
+}<span class="hljs-keyword">catch</span>(error){
+  console.log(error);
+}
+$END$
+</code></pre>
+<p>self.once</p>
+<pre><code class="lang-js">  self = <span class="hljs-keyword">this</span>;
+  <span class="hljs-keyword">if</span>(! self.once) {
+    $SELECTED$
+    $END$
+  }
+  self.once = <span class="hljs-literal">true</span>;
+</code></pre>
+<p>if/else block</p>
+<pre><code class="lang-js"><span class="hljs-keyword">if</span>($END$){
+    $SELECTION$
+}<span class="hljs-keyword">else</span>{
+
+}
+</code></pre>
+<p>console.group</p>
+<pre><code class="lang-js">console.group(<span class="hljs-string">'$END$'</span>);
+$SELECTION$
+console.endGroup();
+</code></pre>
+<p>bootstrap panel - basic</p>
+<pre><code class="lang-js">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"panel panel-default"</span>&gt;
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"panel-heading"</span>&gt;</span>
+    $END$
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  $SELECTION$
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></span>
+</code></pre>
+<p>bootstrap panel - complete</p>
+<pre><code class="lang-js">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"panel panel-default"</span>&gt;
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"panel-heading"</span>&gt;</span>
+    $END$
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  $SELECTION$
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"panel-footer"</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></span>
+</code></pre>
+<p>bootstrap panel - minimal</p>
+<pre><code class="lang-js">&lt;div class="panel panel-default"&gt;
+  $SELECTION$
+&lt;/div&gt;
+$END$
+</code></pre>
+<p>new page template</p>
+<pre><code class="lang-js">&lt;template name=<span class="hljs-string">"$END$"</span>&gt;
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"newPage"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"page"</span>&gt;</span>
+    $SELECTION$
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span></span>
+</code></pre>
+<h3 id="settings-plugins">Settings &gt; Plugins</h3>
+<p>If you can&#39;t find plugins via the Settings -&gt; Plugins -&gt; Browse Repositories dialog, you can go to <a href="http://plugins.jetbrains.com" target="_blank">http://plugins.jetbrains.com</a>, find the desired plugin, download it, then unpack the .zip into WebStorm&#39;s <code>plugins</code> directory.</p>
+<p>Some useful plugins:</p>
+<ul>
+<li><a href="https://github.com/dboissier/mongo4idea" target="_blank">Mongo Plugin</a></li>
+<li><a href="http://plugins.jetbrains.com/plugin/6186" target="_blank">Unicode Browser</a></li>
+<li><a href="http://plugins.jetbrains.com/plugin/7273" target="_blank">Code History Mining</a></li>
+<li><a href="http://plugins.jetbrains.com/plugin/7216" target="_blank">Dummy Text Generator</a></li>
+<li><a href="http://plugins.jetbrains.com/plugin/7275" target="_blank">CodeGlance</a> - minimap similar to the one in Sublime</li>
+<li><a href="http://plugins.jetbrains.com/plugin/6274" target="_blank">Code Outline 2</a></li>
+<li><a href="http://plugins.jetbrains.com/plugin/6884" target="_blank">Handlebars/Mustache</a></li>
+<li><a href="http://plugins.jetbrains.com/plugin/7160" target="_blank">CamelCase</a></li>
+<li><a href="http://plugins.jetbrains.com/plugin/7315" target="_blank">Git Flow Integration</a></li>
+<li><a href="http://plugins.jetbrains.com/plugin/7147" target="_blank">SyncEdit 2</a> - expanded word refactoring</li>
+</ul>
+<p>Some plugins enabled by default that don&#39;t apply to meteor development and you can disable to improve performance:</p>
+<ul>
+<li>Database Support (doesn&#39;t support MongDB; use the <a href="https://github.com/dboissier/mongo4idea" target="_blank">Mongo Plugin</a> instead)</li>
+<li>ASP</li>
+<li>CVS</li>
+<li>Drupal</li>
+<li>Framework MVC Structure</li>
+<li>Google App Engine Support for PHP</li>
+<li>hg4idea</li>
+<li>Java Server Pages</li>
+<li>PHP</li>
+<li>SQL support</li>
+<li>Subversion Integration</li>
+<li>YAML</li>
+</ul>
+<h3 id="debugging">Debugging</h3>
+<p>See <a href="http://stackoverflow.com/questions/14751080/how-can-i-debug-my-meteor-app-using-the-webstorm-ide" target="_blank">How to debug Meteor apps with WebStorm</a>.</p>
+
+                
+                </section>
+            
+            </div>
+
+            <div class="page-footer">
+    
+        
+        <a href="./Test Driven Development.html" class="navigation-link next">
+            
+            Next
+            
+        </a>
+        
+    
+</div>
+        </div>
+    </div>
+</div>
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
+        <script src="gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+        <script src="gitbook/app.js"></script>
+        
+    </body>
+</html>
