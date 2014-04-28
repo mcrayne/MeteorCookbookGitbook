@@ -3,12 +3,12 @@
     <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
         
         <meta charset="UTF-8">
-        <title>WebStorm IDE | Meteorcookbookgitbook</title>
+        <title>WebStorm IDE | Meteor Cookbook</title>
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="robots" content="index, follow">
-        <meta name="author" content="mcrayne">
-        <meta name="description" content="Book generated using GitBook">
+        <meta name="author" content="">
+        <meta name="description" content="Welcome to the Meteor Cookbook; a FAQ and tutorial culled and currated from over 12 months of emails and discussions from the [Meteor Talk](https://groups.google.com/forum/#!forum/meteor-talk) google group and my experiences rolling out packages and apps.">
         <meta name="keywords" content="gitbook,github" >
         <meta name="generator" content="www.gitbook.io">
 
@@ -19,12 +19,12 @@
         <link rel="prev" href="./Development Tools.html" />
         
 
-        <meta property="og:title" content="WebStorm IDE | Meteorcookbookgitbook">
-        <meta property="og:site_name" content="Meteorcookbookgitbook">
+        <meta property="og:title" content="WebStorm IDE | Meteor Cookbook">
+        <meta property="og:site_name" content="Meteor Cookbook">
         <meta property="og:type" content="book">
         <meta property="og:locale" content="en_US">
 
-        <meta property="book:author" content="https://github.com/mcrayne">
+        <meta property="book:author" content="https://github.com/">
         <meta property="book:tag" content="GitBook">
 
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -32,32 +32,59 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
         <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
-
-        
-        <link rel="stylesheet" href="gitbook/style.css">
-        
         
     </head>
     <body>
         
-<div class="book" data-github="mcrayne/MeteorCookbookGitbook" data-level="4.3" data-basepath="." data-revision="1398653190762">
+
+        <link rel="stylesheet" href="gitbook/style.css">
+        
+
+
+        
+    <div class="book"  data-level="4.3" data-basepath="." data-revision="1398658351547">
     <div class="book-header">
     <!-- Actions Left -->
-    <a href="https://github.com/mcrayne/MeteorCookbookGitbook" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
+    
     <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
     <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+	<div class="dropdown-caret">
+  <span class="caret-outer"></span>
+  <span class="caret-inner"></span>
+</div>
+
+	<div class="btn-group btn-block">
+		<button id="reduce-font-size" class="btn btn-default">A</button>
+		<button id="enlarge-font-size" class="btn btn-default">A</button>
+	</div>
+
+	<ul class="list-group font-family-list">
+		<li class="list-group-item" data-font="0">Serif</li>
+		<li class="list-group-item" data-font="1">Sans</li>
+	</ul>
+
+	<div class="btn-group btn-group-xs btn-block color-theme-list">
+	  <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+	  <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+	  <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+	</div>
+</div>
+
+    </span>
 
     <!-- Actions Right -->
     <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
     <a href="#" target="_blank" class="btn pull-right" data-sharing="facebook"><i class="fa fa-facebook"></i></a>
     <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
 
-    <a href="https://github.com/mcrayne/MeteorCookbookGitbook/stargazers" target="_blank" class="btn pull-right count-star"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
-    <a href="https://github.com/mcrayne/MeteorCookbookGitbook/watchers" target="_blank" class="btn pull-right count-watch"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
-
+    
 
     <!-- Title -->
-    <h1><a href="./" >Meteorcookbookgitbook</a></h1>
+    <h1><a href="./" >Meteor Cookbook</a></h1>
 </div>
 
     <div class="book-summary">
@@ -65,16 +92,7 @@
         <input type="text" placeholder="Search" class="form-control" />
     </div>
     <ul class="summary">
-        <li>
-            <a href="https://github.com/mcrayne" target="blank">About the author</a>
-        </li>
-        <li>
-            <a href="https://github.com/mcrayne/MeteorCookbookGitbook/issues" target="blank">Questions and Issues</a>
-        </li>
-        <li>
-            <a href="https://github.com/mcrayne/MeteorCookbookGitbook/edit/master/WebStorm IDE.md" target="blank">Edit and Contribute</a>
-        </li>
-        <li class="divider"></li>
+        
         <li data-level="0" data-path="index.html">
             <a href="./"><i class="fa fa-check"></i> Introduction</a>
         </li>
@@ -82,7 +100,7 @@
             <li  data-level="1" data-path="Cookbook Conventions.html">
                 
                 <a href="./Cookbook Conventions.html">
-                    <i class="fa fa-check"></i> <b>1)</b> Cookbook Conventions
+                    <i class="fa fa-check"></i> <b>1.</b> Cookbook Conventions
                 </a>
                 
                 
@@ -91,7 +109,7 @@
             <li  data-level="2" data-path="General Advice.html">
                 
                 <a href="./General Advice.html">
-                    <i class="fa fa-check"></i> <b>2)</b> General Advice
+                    <i class="fa fa-check"></i> <b>2.</b> General Advice
                 </a>
                 
                 
@@ -100,7 +118,7 @@
             <li  data-level="3" data-path="Meteor Style Guide.html">
                 
                 <a href="./Meteor Style Guide.html">
-                    <i class="fa fa-check"></i> <b>3)</b> Meteor Style Guide
+                    <i class="fa fa-check"></i> <b>3.</b> Meteor Style Guide
                 </a>
                 
                 
@@ -109,7 +127,7 @@
                         <li  data-level="3.1" data-path="Terminology.html">
                             
                             <a href="./Terminology.html">
-                                <i class="fa fa-check"></i> <b>3.1)</b> Terminology
+                                <i class="fa fa-check"></i> <b>3.1.</b> Terminology
                             </a>
                             
                         </li>
@@ -117,7 +135,7 @@
                         <li  data-level="3.2" data-path="Syntax.html">
                             
                             <a href="./Syntax.html">
-                                <i class="fa fa-check"></i> <b>3.2)</b> Syntax
+                                <i class="fa fa-check"></i> <b>3.2.</b> Syntax
                             </a>
                             
                         </li>
@@ -125,7 +143,7 @@
                         <li  data-level="3.3" data-path="Punctuation.html">
                             
                             <a href="./Punctuation.html">
-                                <i class="fa fa-check"></i> <b>3.3)</b> Punctuation
+                                <i class="fa fa-check"></i> <b>3.3.</b> Punctuation
                             </a>
                             
                         </li>
@@ -133,7 +151,7 @@
                         <li  data-level="3.4" data-path="Reserved Words.html">
                             
                             <a href="./Reserved Words.html">
-                                <i class="fa fa-check"></i> <b>3.4)</b> Reserved Words
+                                <i class="fa fa-check"></i> <b>3.4.</b> Reserved Words
                             </a>
                             
                         </li>
@@ -145,7 +163,7 @@
             <li  data-level="4" data-path="Installation.html">
                 
                 <a href="./Installation.html">
-                    <i class="fa fa-check"></i> <b>4)</b> Installation
+                    <i class="fa fa-check"></i> <b>4.</b> Installation
                 </a>
                 
                 
@@ -154,7 +172,7 @@
                         <li  data-level="4.1" data-path="Quickstart.html">
                             
                             <a href="./Quickstart.html">
-                                <i class="fa fa-check"></i> <b>4.1)</b> Quickstart
+                                <i class="fa fa-check"></i> <b>4.1.</b> Quickstart
                             </a>
                             
                         </li>
@@ -162,7 +180,7 @@
                         <li  data-level="4.2" data-path="Development Tools.html">
                             
                             <a href="./Development Tools.html">
-                                <i class="fa fa-check"></i> <b>4.2)</b> Development Tools
+                                <i class="fa fa-check"></i> <b>4.2.</b> Development Tools
                             </a>
                             
                         </li>
@@ -170,7 +188,7 @@
                         <li  data-level="4.3" data-path="WebStorm IDE.html">
                             
                             <a href="./WebStorm IDE.html">
-                                <i class="fa fa-check"></i> <b>4.3)</b> WebStorm IDE
+                                <i class="fa fa-check"></i> <b>4.3.</b> WebStorm IDE
                             </a>
                             
                         </li>
@@ -182,7 +200,7 @@
             <li  data-level="5" data-path="Test Driven Development.html">
                 
                 <a href="./Test Driven Development.html">
-                    <i class="fa fa-check"></i> <b>5)</b> Test Driven Development
+                    <i class="fa fa-check"></i> <b>5.</b> Test Driven Development
                 </a>
                 
                 
@@ -191,7 +209,7 @@
                         <li  data-level="5.1" data-path="The Refactoring Process.html">
                             
                             <a href="./The Refactoring Process.html">
-                                <i class="fa fa-check"></i> <b>5.1)</b> The Refactoring Process
+                                <i class="fa fa-check"></i> <b>5.1.</b> The Refactoring Process
                             </a>
                             
                         </li>
@@ -199,7 +217,7 @@
                         <li  data-level="5.2" data-path="Refactoring with Test Driven Development.html">
                             
                             <a href="./Refactoring with Test Driven Development.html">
-                                <i class="fa fa-check"></i> <b>5.2)</b> Refactoring with Test Driven Development
+                                <i class="fa fa-check"></i> <b>5.2.</b> Refactoring with Test Driven Development
                             </a>
                             
                         </li>
@@ -207,7 +225,7 @@
                         <li  data-level="5.3" data-path="Writing Acceptance Tests.html">
                             
                             <a href="./Writing Acceptance Tests.html">
-                                <i class="fa fa-check"></i> <b>5.3)</b> Writing Acceptance Tests
+                                <i class="fa fa-check"></i> <b>5.3.</b> Writing Acceptance Tests
                             </a>
                             
                         </li>
@@ -219,7 +237,7 @@
             <li  data-level="6" data-path="Site Mechanics.html">
                 
                 <a href="./Site Mechanics.html">
-                    <i class="fa fa-check"></i> <b>6)</b> Site Mechanics
+                    <i class="fa fa-check"></i> <b>6.</b> Site Mechanics
                 </a>
                 
                 
@@ -228,7 +246,7 @@
                         <li  data-level="6.1" data-path="File Structure.html">
                             
                             <a href="./File Structure.html">
-                                <i class="fa fa-check"></i> <b>6.1)</b> File Structure
+                                <i class="fa fa-check"></i> <b>6.1.</b> File Structure
                             </a>
                             
                         </li>
@@ -236,7 +254,7 @@
                         <li  data-level="6.2" data-path="Dependencies.html">
                             
                             <a href="./Dependencies.html">
-                                <i class="fa fa-check"></i> <b>6.2)</b> Dependencies
+                                <i class="fa fa-check"></i> <b>6.2.</b> Dependencies
                             </a>
                             
                         </li>
@@ -244,7 +262,7 @@
                         <li  data-level="6.3" data-path="App Structure.html">
                             
                             <a href="./App Structure.html">
-                                <i class="fa fa-check"></i> <b>6.3)</b> App Structure
+                                <i class="fa fa-check"></i> <b>6.3.</b> App Structure
                             </a>
                             
                         </li>
@@ -252,7 +270,7 @@
                         <li  data-level="6.4" data-path="Event Cycle.html">
                             
                             <a href="./Event Cycle.html">
-                                <i class="fa fa-check"></i> <b>6.4)</b> Event Cycle
+                                <i class="fa fa-check"></i> <b>6.4.</b> Event Cycle
                             </a>
                             
                         </li>
@@ -260,7 +278,7 @@
                         <li  data-level="6.5" data-path="Namespacing.html">
                             
                             <a href="./Namespacing.html">
-                                <i class="fa fa-check"></i> <b>6.5)</b> Namespacing
+                                <i class="fa fa-check"></i> <b>6.5.</b> Namespacing
                             </a>
                             
                         </li>
@@ -268,7 +286,7 @@
                         <li  data-level="6.6" data-path="Packages.html">
                             
                             <a href="./Packages.html">
-                                <i class="fa fa-check"></i> <b>6.6)</b> Packages
+                                <i class="fa fa-check"></i> <b>6.6.</b> Packages
                             </a>
                             
                         </li>
@@ -276,7 +294,7 @@
                         <li  data-level="6.7" data-path="Site Configuration.html">
                             
                             <a href="./Site Configuration.html">
-                                <i class="fa fa-check"></i> <b>6.7)</b> Site Configuration
+                                <i class="fa fa-check"></i> <b>6.7.</b> Site Configuration
                             </a>
                             
                         </li>
@@ -288,7 +306,7 @@
             <li  data-level="7" data-path="OSI Model Physical Layer.html">
                 
                 <a href="./OSI Model Physical Layer.html">
-                    <i class="fa fa-check"></i> <b>7)</b> OSI Model Physical Layer
+                    <i class="fa fa-check"></i> <b>7.</b> OSI Model Physical Layer
                 </a>
                 
                 
@@ -297,7 +315,7 @@
             <li  data-level="8" data-path="OSI Model Data-Link Layer.html">
                 
                 <a href="./OSI Model Data-Link Layer.html">
-                    <i class="fa fa-check"></i> <b>8)</b> OSI Model Data-Link Layer
+                    <i class="fa fa-check"></i> <b>8.</b> OSI Model Data-Link Layer
                 </a>
                 
                 
@@ -306,7 +324,7 @@
                         <li  data-level="8.1" data-path="Console Logging.html">
                             
                             <a href="./Console Logging.html">
-                                <i class="fa fa-check"></i> <b>8.1)</b> Console Logging
+                                <i class="fa fa-check"></i> <b>8.1.</b> Console Logging
                             </a>
                             
                         </li>
@@ -314,7 +332,7 @@
                         <li  data-level="8.2" data-path="WebKit Browsers.html">
                             
                             <a href="./WebKit Browsers.html">
-                                <i class="fa fa-check"></i> <b>8.2)</b> WebKit Browsers
+                                <i class="fa fa-check"></i> <b>8.2.</b> WebKit Browsers
                             </a>
                             
                         </li>
@@ -322,7 +340,7 @@
                         <li  data-level="8.3" data-path="File IO.html">
                             
                             <a href="./File IO.html">
-                                <i class="fa fa-check"></i> <b>8.3)</b> File IO
+                                <i class="fa fa-check"></i> <b>8.3.</b> File IO
                             </a>
                             
                         </li>
@@ -330,7 +348,7 @@
                         <li  data-level="8.4" data-path="Video IO.html">
                             
                             <a href="./Video IO.html">
-                                <i class="fa fa-check"></i> <b>8.4)</b> Video IO
+                                <i class="fa fa-check"></i> <b>8.4.</b> Video IO
                             </a>
                             
                         </li>
@@ -342,7 +360,7 @@
             <li  data-level="9" data-path="OSI Model Network Layer.html">
                 
                 <a href="./OSI Model Network Layer.html">
-                    <i class="fa fa-check"></i> <b>9)</b> OSI Model Network Layer
+                    <i class="fa fa-check"></i> <b>9.</b> OSI Model Network Layer
                 </a>
                 
                 
@@ -351,7 +369,7 @@
             <li  data-level="10" data-path="OSI Model Transport Layer.html">
                 
                 <a href="./OSI Model Transport Layer.html">
-                    <i class="fa fa-check"></i> <b>10)</b> OSI Model Transport Layer
+                    <i class="fa fa-check"></i> <b>10.</b> OSI Model Transport Layer
                 </a>
                 
                 
@@ -360,7 +378,7 @@
             <li  data-level="11" data-path="OSI Model Data Layer.html">
                 
                 <a href="./OSI Model Data Layer.html">
-                    <i class="fa fa-check"></i> <b>11)</b> OSI Model Data Layer
+                    <i class="fa fa-check"></i> <b>11.</b> OSI Model Data Layer
                 </a>
                 
                 
@@ -369,7 +387,7 @@
             <li  data-level="12" data-path="OSI Model Presentation Layer.html">
                 
                 <a href="./OSI Model Presentation Layer.html">
-                    <i class="fa fa-check"></i> <b>12)</b> OSI Model Presentation Layer
+                    <i class="fa fa-check"></i> <b>12.</b> OSI Model Presentation Layer
                 </a>
                 
                 
@@ -378,7 +396,7 @@
             <li  data-level="13" data-path="OSI Model Application Layer.html">
                 
                 <a href="./OSI Model Application Layer.html">
-                    <i class="fa fa-check"></i> <b>13)</b> OSI Model Application Layer
+                    <i class="fa fa-check"></i> <b>13.</b> OSI Model Application Layer
                 </a>
                 
                 
@@ -387,15 +405,16 @@
     </ul>
 </div>
 
-    <div class="book-body" tabindex="-1">
-        <div class="page-wrapper">
-            <div class="book-progress">
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
     <div class="bar">
         <div class="inner" style="width: 44.11764705882353%;min-width: 41.1764705882353%;"></div>
     </div>
     <div class="chapters">
     
-        <a href="./README.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+        <a href="./index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
     
         <a href="./Cookbook Conventions.html" title="Cookbook Conventions" class="chapter done new-chapter" data-progress="1" style="left: 2.9411764705882355%;"></a>
     
@@ -468,11 +487,11 @@
     </div>
 </div>
 
-            <div class="page-inner">
-            
-                <section class="normal" id="section-gitbook_37">
+                <div class="page-inner">
                 
-                    <h2 id="webstorm-ide">WebStorm IDE</h2>
+                    <section class="normal" id="section-gitbook_38">
+                    
+                        <h2 id="webstorm-ide">WebStorm IDE</h2>
 <h3 id="links-installation">Links, Installation</h3>
 <p>Recommend version of WebStorm is currently 7.0.
 <a href="http://www.jetbrains.com/webstorm/" target="_blank">http://www.jetbrains.com/webstorm/</a>
@@ -488,23 +507,23 @@
 <p>As per the Meteor style guide.
 <a href="https://github.com/meteor/meteor/wiki/Meteor-Style-Guide" target="_blank">https://github.com/meteor/meteor/wiki/Meteor-Style-Guide</a></p>
 <pre><code>// Tabs and Indents
-<span class="hljs-keyword">Tab</span> Size: <span class="hljs-number">2</span>
-<span class="hljs-keyword">Indent</span>: <span class="hljs-number">2</span>
-<span class="hljs-keyword">Continuation</span> indent: <span class="hljs-number">2</span>
+Tab Size: 2
+Indent: 2
+Continuation indent: 2
 
 // Spaces  (select all options **except** the following)
 Unary operators
-<span class="hljs-keyword">Function</span> call parentheses
-<span class="hljs-keyword">Function</span> declaration parentheses
-<span class="hljs-string">'if'</span> parentheses
-<span class="hljs-string">'for'</span> parentheses
-<span class="hljs-string">'while'</span> parantheses
-<span class="hljs-string">'switch'</span> parantheses
-<span class="hljs-string">'catch'</span> parantheses
+Function call parentheses
+Function declaration parentheses
+&#39;if&#39; parentheses
+&#39;for&#39; parentheses
+&#39;while&#39; parantheses
+&#39;switch&#39; parantheses
+&#39;catch&#39; parantheses
 </code></pre><h3 id="settings-directories-excluded">Settings &gt; Directories &gt; Excluded</h3>
 <p>You want to exclude the <code>.meteor</code> file so that the Meteor build process doesn&#39;t crash your IDE.  This applies to most any IDE you use, and isn&#39;t specific to WebStorm.</p>
-<pre><code><span class="hljs-preprocessor">.idea</span>
-<span class="hljs-preprocessor">.meteor</span>
+<pre><code>.idea
+.meteor
 </code></pre><h3 id="settings-file-and-code-templates">Settings &gt; File and Code Templates</h3>
 <p>I find it very convenient to create a Less file template, using some default media styles to help with responsive mobile application design.</p>
 <p><strong>Meteor - Mobile View</strong></p>
@@ -589,34 +608,34 @@ Template.fooList.fooList = function(){
 <h3 id="settings-editor-editor-tabs">Settings &gt; Editor &gt; Editor Tabs</h3>
 <p>Enable &quot;Mark modified tabs with asterisk&quot;</p>
 <h3 id="settings-javascript-code-quality-tools-jslint">Settings &gt; Javascript &gt; Code Quality Tools &gt; JSLint</h3>
-<pre><code><span class="hljs-addition">+ Enable</span>
-<span class="hljs-addition">+ Tolerate TODO comments</span>
+<pre><code>+ Enable
++ Tolerate TODO comments
 Indentation 2
 </code></pre><p>If <a href="http://stackoverflow.com/questions/6803305/should-i-use-jslint-or-jshint-javascript-validation" target="_blank">JSLint is too annoyingly strict</a>, enable JSHint instead.</p>
 <h3 id="settings-javascript-node-js">Settings &gt; Javascript &gt; Node.js</h3>
 <pre><code>chai
 demeteorizer
-fs<span class="hljs-attribute">-tools</span>
+fs-tools
 istanbul
 laika
 meteorite
 mocha
 phantomjs
-selenium<span class="hljs-attribute">-webdriver</span>
+selenium-webdriver
 </code></pre><h3 id="settings-version-control-github">Settings &gt; Version Control &gt; Github</h3>
-<pre><code><span class="hljs-attribute">Host</span>: <span class="hljs-string">github.com</span>
-<span class="hljs-attribute">Login</span>: <span class="hljs-string">yourusername</span>
-<span class="hljs-attribute">Password</span>: <span class="hljs-string">yourpassword</span>
+<pre><code>Host: github.com
+Login: yourusername
+Password: yourpassword
 </code></pre><h3 id="settings-editor">Settings &gt; Editor</h3>
 <p>Editor preferences are going to vary wildly, particularly if you&#39;re accustomed to old school editors like Vim or Emacs.  However, if you&#39;d like WebStorm to behave like a typical text editor, I&#39;d recommend setting the following items.  In particular, allow placement of the caret after the end of line can be particularly confusing and frustrating.</p>
-<pre><code>- Honor <span class="hljs-attribute">'CamelHumps</span>'
-+ Zoom <span class="hljs-keyword">with</span> Cmd + Mousewheel
-+ <span class="hljs-keyword">Use</span> soft wraps <span class="hljs-keyword">in</span> editor
-- Allow placement <span class="hljs-keyword">of</span> caret <span class="hljs-keyword">after</span> <span class="hljs-keyword">end</span> <span class="hljs-keyword">of</span> line
-+ Allowplacement <span class="hljs-keyword">of</span> caret inside <span class="hljs-keyword">of</span> tabs
+<pre><code>- Honor &#39;CamelHumps&#39;
++ Zoom with Cmd + Mousewheel
++ Use soft wraps in editor
+- Allow placement of caret after end of line
++ Allowplacement of caret inside of tabs
 </code></pre><h3 id="preferences-editor-appearance">Preferences &gt; Editor &gt; Appearance</h3>
 <p>Showing line numbers is obviously a personal preference, but it helps immeasurably in debugging stack traces.  If you&#39;re not using line numbers, you&#39;re very likely either a n00b or a guru.  Ask yourself if you&#39;re a n00b, a guru, or an intermediate programmer, and set accordingly.</p>
-<pre><code><span class="hljs-addition">+ Show line numbers</span>
+<pre><code>+ Show line numbers
 </code></pre><h3 id="settings-editor-color-fonts-javascript">Settings &gt; Editor &gt; Color &amp; Fonts &gt; Javascript</h3>
 <p>Another personal preference, but if you&#39;re into reducing eye strain, coding in low-light levels, anord saving energy, try changing to <code>Darcula</code>.</p>
 <h3 id="settings-live-templates">Settings &gt; Live Templates</h3>
@@ -712,31 +731,48 @@ $END$
 <h3 id="debugging">Debugging</h3>
 <p>See <a href="http://stackoverflow.com/questions/14751080/how-can-i-debug-my-meteor-app-using-the-webstorm-ide" target="_blank">How to debug Meteor apps with WebStorm</a>.</p>
 
+                    
+                    </section>
                 
-                </section>
-            
+                </div>
             </div>
-
-            <div class="page-footer">
-    
-        
-        <a href="./Test Driven Development.html" class="navigation-link next">
-            
-            Next
-            
-        </a>
-        
-    
-</div>
         </div>
+
+        
+        <a href="./Development Tools.html" class="navigation navigation-prev"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./Test Driven Development.html" class="navigation navigation-next"><i class="fa fa-angle-right"></i></a>
+        
     </div>
 </div>
 
         
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
         <script src="gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
         <script src="gitbook/app.js"></script>
         
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-mixpanel/plugin.js"></script>
+    
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
     </body>
 </html>

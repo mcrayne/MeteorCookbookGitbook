@@ -57,5 +57,6 @@ If you can structure your css/less classes in this manner, you'll be able to off
 At the very least, consider a semantic UI library of some sort, such as Bootstrap 3 or Zurb Foundation (they're the oldest, and have been around the longest).  All the examples in the Meteor Cookbook use Bootstrap 3.  However, in the future, we're considering moving to something even more semantic, such as Semantic UI.
 
 [Bootstrap](http://getbootstrap.com/)
+
 [Semantic UI](http://semantic-ui.com/)
 
