@@ -13,7 +13,7 @@ There's now a pre-compiled settings file which you can download and import direc
 https://github.com/awatson1978/webstorm-settings
 
 ### Implementing Meteor Styleguide
-https://github.com/meteor/meteor/dwiki/Meteor-Style-Guide
+https://github.com/meteor/meteor/wiki/Meteor-Style-Guide
 
 
 ### MVC Color Coding

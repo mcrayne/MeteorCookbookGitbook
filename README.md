@@ -9,9 +9,4 @@ These documents are intended for the intermediate user learning Meteor, who is a
 
 The focus is on helping the user grow accustomed to functional programming using document oriented databases.
 
-The original work for this can be found on Abigail Watson's Github [repo](https://github.com/awatson1978/meteor-cookbook). Abigail is the author of the content, I have reorganized this content to fit easily into the GitBook format.
-
-
-
-
-
+The original work for this can be found on [Abigail Watson's](https://github.com/awatson1978) Github [repo](https://github.com/awatson1978/meteor-cookbook). Abigail is the author of the content, I have reorganized this content to fit easily into the GitBook format.
