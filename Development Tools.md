@@ -16,14 +16,14 @@ Add the myapp/.meteor directory to your ignore list.  Meteor takes your applicat
 
 **Q:  Any recommendations on Browser Debugging?**
 
-[Chrome - Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh)
+[Chrome - Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) or
 [Firefox - Firebug](https://getfirebug.com/)
 
 
 **Q:  Any recommendations on pair-programming?**
 
-[Screenhero](http://screenhero.com/download.html?src=btn)
-[MadEye](http://madeye.io/get-started)
+[Screenhero](http://screenhero.com/download.html?src=btn) or
+[MadEye](https://madeye.io/#getStarted)
 
 
 
