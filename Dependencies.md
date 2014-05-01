@@ -27,9 +27,9 @@ The simple rule of thumb is that the bundler includes files in the deepest direc
 
 **Q:  How do I add dependencies?**
 If you haven't run across Meteorite and Atmosphere and the mrt command utility, do some research on those terms.  In the /usr/loca/meteor/packages directory, you'll find all the source code for the packages themselves, and take a gander at the package.js files.  Those, in conjunction with the 'meteor add package-name' syntax is how Meteor handles much of the dependency type stuff.  Of course, the dependency management requires that a package is built in the first place.
-http://atmosphere.meteor.com
+https://atmospherejs.com/
 
-**Q: How do I get 3rd-party-library.js work with Meteor?**
+**Q: How do I get a 3rd-party-library.js to work with Meteor?**
 
 Installing a 3rd party library doesn't have to be hard.  If you're having problems, it's probably because the reactive templates are overwriting the objects you created.  There are a few ways to deal with this:
 
